@@ -1,0 +1,55 @@
+.jumbotron h1{
+    color: green;
+}
+
+nav > *{
+    width: 80px;
+    text-align: center;
+    background: orangered;
+    color: white;
+}
+
+.jumbotron p > a{
+    color: purple;
+    background: lightblue;
+}
+
+.container > .row.mb-2 > .col-md-6:first-of-type p.card-text.mb-auto{
+    color: red;
+    background: lightcoral
+}
+
+main.container > div.row > div.blog-main > div.blog-post > hr{
+    background-color: red;
+}
+
+nav > span:nth-of-type(even){
+    color: black;
+}
+
+ol.list-unstyled.mb-0 > li {
+    background-color: yellow;
+}
+
+div.blog-post:nth-of-type(even) > p.blog-post-meta > a{
+    color:crimson
+}
+
+div.blog-post > ul > li:nth-last-of-type(even){
+    color: rgb(5, 255, 84);
+}
+
+body > a.float-right{
+    background-color: blue;
+    color: white;
+}
+
+nav.blog-pagination > a.btn.disabled{
+    background-color: rgb(0, 255, 157);
+    color: rgb(226, 43, 104);
+}
+
+footer > p > a:nth-of-type(even){
+    font-size: 32px;
+    color: rgb(255, 0, 179);
+}
